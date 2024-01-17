@@ -7,14 +7,14 @@ import '../../state/screens/state_page.dart';
 import '../widgets/custom_bottom_navigation_bar.dart';
 import 'home_page.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class ControlScreen extends StatefulWidget {
+  const ControlScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<ControlScreen> createState() => _ControlScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _ControlScreenState extends State<ControlScreen> {
   int index = 0;
   List<Widget> w = const [
     HomePage(),
