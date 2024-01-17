@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../core/utils/app_colors.dart';
 import '../../../core/utils/app_strings.dart';
 import '../../../core/utils/size_manager.dart';
+import '../../state/screens/state_page.dart';
 import '../widgets/custom_bottom_navigation_bar.dart';
 import 'home_page.dart';
 
@@ -17,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int index = 0;
   List<Widget> w = const [
     HomePage(),
-    // StatePage(),
+    StatePage(),
   ];
 
   @override
